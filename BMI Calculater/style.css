@@ -1,0 +1,78 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+width: 100%;
+padding: 100px 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+form{
+    width: auto;
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 40px;
+    background-color: rgba(128, 128, 128, 0.212);
+    border: none;
+    border-radius: 20px;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgb(148, 147, 147);
+}
+
+form > h1{
+    
+    margin-bottom:10px;
+    color: rgb(203, 54, 0);
+}
+
+form .input-divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:35px;
+    gap: 5px;
+}
+
+.input-divs label{
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.input-divs input{
+    width: 220px;
+    height: 4vh;
+    font-size: 17px;
+    padding: 0px 5px ;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 7px;
+}
+
+form button{
+    margin: 45px;
+    font-size: 15px;
+    background-color: rgb(33, 148, 255) ;    
+    color: black;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+form button:hover{
+    box-shadow: 2px 2px 5px black;
+    background-color: rgb(0, 255, 0);
+
+}
+
+form h4{
+    color: rgb(0, 132, 255);
+}
