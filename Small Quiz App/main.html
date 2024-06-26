@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <script src="https://kit.fontawesome.com/48486e09d0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <audio class="Audio" autoplay loop>
+        <source src="./audio.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="quiz-section">
+        <div id="setmusic">
+            <div class="music-logo" id="on"><i class="fa-solid fa-volume-high"></i></div>
+            <div class="music-logo" id="off"><i class="fa-solid fa-volume-xmark"></i></div>
+        </div>
+        <div class="Quiz">
+            <h2 class="question" id="question">quiz question</h2>
+            <hr />
+            <ul>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="a">
+                    <label for="a" id="option_1">quiz Option</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="b">
+                    <label for="b" id="option_2">quiz Option</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="c">
+                    <label for="c" id="option_3">quiz Option</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="d">
+                    <label for="d" id="option_4">quiz Option</label>
+                </li>
+            </ul>
+            <hr />
+
+            <button type="submit" id="submit">Next</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
