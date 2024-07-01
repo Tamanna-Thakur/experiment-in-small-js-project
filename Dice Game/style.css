@@ -1,0 +1,125 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+width: 100%;
+height: 100vh;
+font-family: cursive;
+}
+
+.container{
+    width: 30rem;
+    margin: 3rem auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0px .5rem 0px ;
+    gap: 1rem;
+    border: 5px solid black;
+    border-radius: .9rem;
+    justify-content: center;
+    height: 70vh;
+}
+h1{
+    font-size: 2.6rem;
+}
+.flex-div{
+    display: flex;
+    width: 20rem;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+.player1,.player2{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+img{
+    width: 70%;
+}
+
+
+#btn,#again{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background-color: rgb(225, 249, 240);
+    font-family: cursive;
+    padding: .5rem 3rem;
+    border-radius: .5rem ;
+    cursor: pointer;
+}
+
+#Who-win{
+    margin-bottom: 1rem;
+    color: rgb(0, 191, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media (max-width:530px) {
+    .container{
+        width: 80vw;
+        height: 45vh;
+        margin: 5rem auto;
+        padding: .2rem 0px ;
+
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    .flex-div{
+        display: flex;
+        width: 10rem;
+        height: 5rem;
+        margin-top: .3rem;
+    
+    }
+    .player1 h2,.player2 h2{
+        font-size: 1rem;
+    }
+    #btn,#again{
+        margin-top: 2rem;
+        font-size: .9rem;
+        padding: .3rem 2rem;
+    }
+    #Who-win{
+     font-size: 1rem;
+     margin-bottom: .2rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
