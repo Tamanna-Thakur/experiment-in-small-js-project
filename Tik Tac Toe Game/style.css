@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient( 45deg,rgb(183, 183, 183),rgb(250, 249, 249));
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.container{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0px 2rem;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 3rem;
+    /* margin-bottom: .rem; */
+}
+
+#Winner-msg{
+    font-size: 1.7rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 199, 162);
+    height: 4rem;
+    align-content: center;
+}
+
+.show-not{
+    visibility: hidden;
+}
+.game-div{
+    /* background-color: red; */
+    width: 25rem;
+    margin: 1rem auto;
+    height: auto;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: .8rem;
+}
+
+.box{
+    width: 8rem;
+    height: 8rem;
+    font-size: 7rem;
+    color: rgba(0, 0, 0, 0.724);
+    border: none;
+    border-radius: .6rem;
+    box-shadow: 1px 1px 3px 1px rgb(44, 44, 44);
+    cursor: pointer;
+    background-color: white;
+}
+#reset,#New-Game{
+    font-size: 1rem;
+    padding: .5rem 1.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color:black ;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin:1rem  4rem;
+}
